@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/pipeline/1001"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "first/pipeline.json",
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}
