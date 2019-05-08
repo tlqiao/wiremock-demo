@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/getAllBooks"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "bookDetails.json",
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/addUserDetails"
+  },
+  "response": {
+    "status": 200,
+    "body": "add user successfully"
+  }
+}

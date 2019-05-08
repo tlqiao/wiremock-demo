@@ -5,7 +5,7 @@ import com.github.tomakehurst.wiremock.core.WireMockConfiguration;
 import static com.github.tomakehurst.wiremock.core.WireMockConfiguration.wireMockConfig;
 
 public class Application {
-    private static final int PORT = 8080;
+    private static final int PORT = 9090;
     private static final  String LOCALHOST= "localhost";
     private static final String MOCK_DIR= "mock";
 

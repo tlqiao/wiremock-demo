@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/getUserByName/([a-z]*)"
+  },
+  "response": {
+    "status": 200,
+    "body": "get user successfully"
+  }
+}
