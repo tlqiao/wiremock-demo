@@ -1,0 +1,38 @@
+<Response>
+    <MetaInfo>
+        <Timestamp>2015-09-15T06:10:48.562Z</Timestamp>
+    </MetaInfo>
+    <View type="ns2:SearchResultsViewType">
+        <ViewId>0</ViewId>
+        <Result>
+            <Relevance>1.0</Relevance>
+            <MatchLevel>houseNumber</MatchLevel>
+            <Location>
+                <MapView>
+                    <TopLeft>
+                        <Latitude>41.88</Latitude>
+                        <Longitude>-87.64</Longitude>
+                    </TopLeft>
+                    <TopLeft>
+                        <Latitude>41.90</Latitude>
+                        <Longitude>-87.60</Longitude>
+                    </TopLeft>
+                </MapView>
+                <Address>
+                    <Country>USA</Country>
+                    <State>IL</State>
+                    <County>Cook</County>
+                    <City>Chicago</City>
+                    <District>West Loop</District>
+                    <Street>W Randolph St</Street>
+                    <HouseNumber>425</HouseNumber>
+                    <PostalCode>60606</PostalCode>
+                    <AdditionalData key="CountryName">United States</AdditionalData>
+                    <AdditionalData key="StateName">Illinois</AdditionalData>
+                    <AdditionalData key="CountyName">Cook</AdditionalData>
+                    <AdditionalData key="PostalCodeType">N</AdditionalData>
+                </Address>
+            </Location>
+        </Result>
+    </View>
+</Response>

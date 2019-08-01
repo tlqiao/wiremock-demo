@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/addBookByXml/([a-z]*)",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/xml"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": {
+          "expression": "//bookName",
+          "equalToXml": "<bookName><mainName>zhang</bookName><alias>shan</alias></bookName>"
+        },
+        "matchesXPath": {
+          "expression": "//price/text()",
+          "contains": "1"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "add book with xpath bodyPatterns successfully"
+  }
+}

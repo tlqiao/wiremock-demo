@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/getBook2/([a-z]*)",
+    "queryParameters": {
+      "name": {
+        "matches": "[a-z]*"
+      },
+      "price": {
+        "matches": "[0-9]*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "get book with url path pattern and queryParameters successfully"
+  }
+}

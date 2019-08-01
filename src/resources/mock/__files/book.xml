@@ -1,0 +1,7 @@
+<book>
+    <bookName>
+        <mainName>name1</mainName>
+        <alias>name2</alias>
+    </bookName>
+    <price>12</price>
+</book>

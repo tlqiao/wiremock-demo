@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/getResume2"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "resume2.json",
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    }
+  }
+}

@@ -5,7 +5,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "userDetails.json",
+    "bodyFileName": "firstCourse/userDetails.json",
     "headers": {
       "Content-Type": "application/json; charset=UTF-8"
     }

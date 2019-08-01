@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/books2/([a-z]*)",
+    "bodyPatterns":[{
+      "matchesJsonPath": "$.books",
+      "matchesJsonPath": "$.comment",
+      "matchesJsonPath": "$..name",
+      "matchesJsonPath": "$..price",
+      "matchesJsonPath": "$..author",
+      "matchesJsonPath": "$..[?(@.price<200)]"
+    }],
+    "headers": {
+      "Content-Type": {"equalTo":"application/json"}
+    },
+    "basicAuth": {
+      "username": "apiUsername",
+      "password": "apiPassword"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "add book with bodyPatterns successfully"
+  }
+}

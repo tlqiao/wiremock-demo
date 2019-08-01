@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/([a-z]*)",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/x-www-form-urlencoded"
+      }
+    },
+    "queryParameters": {
+      "name": {
+        "matches": "[a-z]*"
+      },
+      "price": {
+        "matches": "[0-9]*"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "bookDetails.json"
+  }
+}

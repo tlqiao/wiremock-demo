@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/getXmlData"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "xmlResponse.xml",
+    "headers": {
+      "Content-Type": "application/xml; charset=UTF-8"
+    }
+  }
+}

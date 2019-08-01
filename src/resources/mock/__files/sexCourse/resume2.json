@@ -1,0 +1,5 @@
+{
+  "item_count": 100,
+  "properties": {"content-type":"application/json"},
+  "payLoad":"{\"name\":\"TOM\",\"age\":30,\"birthPlace\":{\"country\":\"China\",\"city\":\"meijing\",\"state\":\"chaoyang state\",\"street\":\"wangfujing street\"},\"contacts\":[{\"phone\":\"12345678901\",\"address\":\"chengdu-tianfu-state\"},{\"phone\":\"11223344556\",\"address\":\"chengdu-jingjiang-state\"}],\"working\":{\"workingProject\":[{\"projectName\":\"aProject\",\"jobTitle\":\"DEV\",\"responsibility\":\"devTest\"},{\"projectName\":\"bProject\",\"jobTitle\":\"QA\",\"responsibility\":\"qaTest\"},{\"projectName\":\"cProject\",\"jobTitle\":\"TL\",\"responsibility\":\"tlTest\"}]},\"skills\":{\"language\":\"pass CET6\",\"tech\":[{\"language\":\"Java\",\"level\":\"good\"},{\"language\":\"C++\",\"level\":\"poor\"}]},\"comment\":\"other info\"}"
+}

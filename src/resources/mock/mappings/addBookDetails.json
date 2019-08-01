@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/api/addBook",
+    "headers": {"Content-Type": {"equalTo":"multipart/form-data"} },
+    "bodyPatterns":
+    [{
+      "matchesJsonPath":"$.name",
+      "matchesJsonPath":"$.price"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "body": "add user successfully"
+  }
+}

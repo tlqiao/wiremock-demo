@@ -40,11 +40,11 @@
     "language": "pass CET6",
     "tech": [
       {
-        "programming language": "Java",
+        "language": "Java",
         "level": "good"
       },
       {
-        "programming language": "C++",
+        "language": "C++",
         "level": "poor"
       }
     ]

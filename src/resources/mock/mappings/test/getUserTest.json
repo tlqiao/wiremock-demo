@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/api/([0-9]*)",
+    "headers": {
+      "Content-Type": {
+          "equalTo": "application/json"
+      }
+    },
+    "bodyPatterns":
+      [{
+        "matchesJsonPath":"$[?(@.things.size() == 2)]",
+        "matchesJsonPath":"$.name[?(@.firstName == 'done')]",
+        "matchesJsonPath":"$.age"
+      }]
+    },
+  "response": {
+    "status": 200,
+    "body": "get success1"
+  }
+}

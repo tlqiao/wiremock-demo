@@ -1,0 +1,14 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/api/getData",
+    "basicAuth": {
+      "username": "apiUsername",
+      "password": "apiPassword"
+    }
+  },
+  "response": {
+    "status": 200,
+    "body": "get api data successfully"
+  }
+}

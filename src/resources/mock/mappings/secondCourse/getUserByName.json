@@ -5,6 +5,6 @@
   },
   "response": {
     "status": 200,
-    "body": "get user successfully"
+    "body": "get user by name successfully"
   }
 }

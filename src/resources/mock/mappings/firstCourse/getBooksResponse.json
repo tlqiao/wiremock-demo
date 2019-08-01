@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/api/getBookResponse/([a-z]*)"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "firstCourse/bookDetails.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
