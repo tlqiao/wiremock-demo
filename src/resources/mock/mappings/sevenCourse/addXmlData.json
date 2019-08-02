@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/addXmlData/([a-z]*)",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/xml;charset=utf-8"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesXPath": {
+          "expression": "/bookstore/book/author/text()",
+          "contains": "author"
+        },
+        "matchesXpath":{
+          "expression":"/bookstore/book/price/text()",
+          "contains": "12"
+        },
+        "matchesXPath": {
+          "expression": "/bookstore/book/bookName/text()",
+          "contains": "bookName"
+        }
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "body": "add xml data successfully"
+  }
+}
