@@ -5,7 +5,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "resume2.json",
+    "bodyFileName": "sexCourse/resume2.json",
     "headers": {
       "Content-Type": "application/json; charset=UTF-8"
     }

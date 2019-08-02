@@ -5,7 +5,7 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "xmlResponse.xml",
+    "bodyFileName": "sevenCourse/xmlResponse.xml",
     "headers": {
       "Content-Type": "application/xml; charset=UTF-8"
     }
