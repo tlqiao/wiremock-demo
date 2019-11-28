@@ -1,11 +1,11 @@
 {
   "request": {
     "method": "POST",
-    "urlPathPattern": "/api/books2/([a-z]*)",
+    "urlPathPattern": "/api/addBookWithBasicAuth/([a-z]*)",
     "bodyPatterns":[{
       "matchesJsonPath": "$.books",
       "matchesJsonPath": "$.comment",
-      "matchesJsonPath": "$..name",
+      "matchesJsonPath": "$.books[?(@.names =~ /Name.*/i)]",
       "matchesJsonPath": "$..price",
       "matchesJsonPath": "$..author",
       "matchesJsonPath": "$..[?(@.price<200)]"
@@ -20,6 +20,6 @@
   },
   "response": {
     "status": 200,
-    "body": "add book with bodyPatterns successfully"
+    "body": "add book with bodyPatterns and basic auth successfully"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/addPersonByXml/([a-z]*)",
+    "headers": {
+      "Content-Type": {
+        "equalTo": "application/xml"
+      }
+    },
+    "bodyPatterns": [{
+      "equalToXml": "<person><firstName>Done</firstName><lastName>Jone</lastName></person>"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "body": "add person with equalToXml successfully"
+  }
+}

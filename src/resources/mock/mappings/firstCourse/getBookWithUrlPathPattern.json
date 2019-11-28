@@ -1,7 +1,7 @@
 {
   "request": {
     "method" : "GET",
-    "urlPathPattern": "/api/getBook/([a-z]*)"
+    "urlPathPattern": "/api/getBookByPathPatter/([a-z]*)"
   },
   "response": {
     "status": 200,

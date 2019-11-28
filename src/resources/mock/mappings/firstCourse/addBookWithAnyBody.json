@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/addBookWithAnyBody/([a-z]*)"
+  },
+  "response": {
+    "status": 200,
+    "body": "add book with any body successfully"
+  }
+}

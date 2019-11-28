@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/api/addBookWithBodyPatter/([a-z]*)",
+    "bodyPatterns":[{
+      "matchesJsonPath": "$.books",
+      "matchesJsonPath": "$.comment",
+      "matchesJsonPath": "$..name",
+      "matchesJsonPath": "$..price",
+      "matchesJsonPath": "$..author",
+      "matchesJsonPath": "$..[?(@.price<200)]"
+    }]
+  },
+  "response": {
+    "status": 200,
+    "body": "add book with bodyPatterns successfully"
+  }
+}
