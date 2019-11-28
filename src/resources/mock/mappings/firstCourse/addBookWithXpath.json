@@ -10,10 +10,6 @@
     "bodyPatterns": [
       {
         "matchesXPath": {
-          "expression": "//bookName",
-          "equalToXml": "<bookName><mainName>zhang</bookName><alias>shan</alias></bookName>"
-        },
-        "matchesXPath": {
           "expression": "//price/text()",
           "contains": "1"
         }
